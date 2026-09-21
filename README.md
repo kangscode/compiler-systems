@@ -1,6 +1,6 @@
 # Compiler / Systems Portfolio
 
-Three small, end-to-end self-study projects prepared as a GitHub portfolio for a computer-systems / AI-accelerator research internship application.
+Three small, end-to-end self-study projects prepared as a GitHub portfolio for a computer-systems / AI-accelerator research.
 
 ## Portfolio map
 
