@@ -1,0 +1,7 @@
+# Tiny tensor IR example
+func @main:
+  %c0 = const 0
+  %m = npu.matmul %A, %B {M=256,N=256,K=128}
+  %a = npu.add %m, %bias
+  %r = npu.relu %a
+  return %r

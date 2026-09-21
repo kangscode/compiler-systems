@@ -1,0 +1,7 @@
+# Two independent ops illustrate that fusion should be pattern-driven.
+func @conv_block:
+  %m0 = npu.matmul %A, %W0 {M=128,N=128,K=64}
+  %a0 = npu.add %m0, %b0
+  %r0 = npu.relu %a0
+  %m1 = npu.matmul %r0, %W1 {M=128,N=64,K=128}
+  return %m1

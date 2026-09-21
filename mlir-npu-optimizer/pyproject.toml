@@ -1,0 +1,8 @@
+[project]
+name = "mlir-npu-optimizer"
+version = "0.1.0"
+description = "MLIR-inspired tensor IR optimization playground for NPU compiler study"
+requires-python = ">=3.10"
+
+[project.scripts]
+mini-npu-opt = "src.cli:main"
